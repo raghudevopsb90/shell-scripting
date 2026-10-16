@@ -1,3 +1,5 @@
 ls -l 
 pwd
-uname -a
+echo Hello World
+
+
