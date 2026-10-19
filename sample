@@ -1,4 +1,5 @@
-ls -l 
+# this is a comment
+ls -l  # ls command
 pwd
 echo Hello Universe
 
