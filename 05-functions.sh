@@ -1,5 +1,5 @@
 date_function() {
-  echo Welcome, Date & time right now is
+  echo Welcome, Date and time right now is
   date
 }
 
