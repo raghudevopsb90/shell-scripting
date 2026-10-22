@@ -20,3 +20,12 @@ echo \*\*\* Hello $User \*\*\*
 # NOw if we recall the color printing echo -e \\e[31m Hello \\e[0m done easy with quotes
 
 echo -e '\e[31m Hello \e[0m'
+
+# Probably to deal this better
+print_red() {
+  echo -e "\e[31m $* \e[0m"
+}
+
+print_red "Hello World"
+print_red "Bye World"
+
