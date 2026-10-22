@@ -13,3 +13,6 @@ User=john
 echo '**** Hello - $User ****'
 
 echo "**** Hello - $User ****"
+
+# We can also achieve this without quotes using esc character (\) to esc the speciality of special charecters.
+echo \*\*\* Hello $User \*\*\*
