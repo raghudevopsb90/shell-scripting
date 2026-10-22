@@ -13,3 +13,15 @@ echo second argument - $2
 echo all arguments - $*
 echo total arguments - $#
 
+
+## Command substitution
+DATE=$(date)
+
+echo DATE - $DATE
+
+## Arithmetic expression
+
+z=$((2+3/1*4))
+
+echo z - $z
+
