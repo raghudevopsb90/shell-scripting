@@ -16,3 +16,7 @@ echo "**** Hello - $User ****"
 
 # We can also achieve this without quotes using esc character (\) to esc the speciality of special charecters.
 echo \*\*\* Hello $User \*\*\*
+
+# NOw if we recall the color printing echo -e \\e[31m Hello \\e[0m done easy with quotes
+
+echo -e '\e[31m Hello \e[0m'
